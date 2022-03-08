@@ -1,0 +1,223 @@
+body {
+  font: 100% Verdana, Arial, sans-serif;
+  background: linear-gradient(to bottom, darkgray 0%, red 100%);
+  margin: 0;
+  padding: 0;
+  text-aligh: center;
+  color: black;
+}
+
+#container {
+  width: 1024px;
+  background: red;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-aligh: left;
+}
+
+#marquee {
+  background: red;
+  font-size: 16;
+  padding: 10px 0;
+  color: white;
+}
+
+header img {
+  width: 1024px;
+  height: 200px;
+}
+
+nav {
+  background: red;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  border: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  font-size: 16px;
+  color: black;
+  padding: 5px 35px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+li a:hover {
+  background: black;
+  color: red;
+}
+
+aside {
+  float: left;
+  width: 200px;
+  background: white;
+  margin: 5px;
+  padding: 5px 5px 5px 5px;
+  border: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px red;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  background: pink;
+}
+
+aside ul li {
+  font-size: 14px;
+  list-style: none;
+  border-bottom: 1px;
+}
+
+aside ul li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+aside a:hover {
+  background: pink;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px pink;
+  background: pink;
+  border: 2px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  color: red;
+}
+
+h3 {
+  font-size: 18px;
+  color: red;
+  font-style: blod;
+}
+
+form {
+  text-align: center;
+  background: pink;
+  border-radius: 5px;
+  padding: 13px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 4px 15px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+section {
+  float: right;
+  width: 780px;
+  margin: 8px 12px;
+  background: white;
+  border-radius: 10px;
+}
+
+article {
+  background: white;
+  width: 680 auto;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+article video {
+  background: white;
+  border-radius: 5px;
+}
+
+article img {
+  float: left;
+  padding: 2px 5px;
+}
+
+.btn {
+  margin: 2px;
+  color: white;
+  padding: 2px 5px;
+  cursor: pointer;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.website {
+  background: grey;
+}
+
+.website:hover {
+  background: light grey;
+  color: red;
+}
+
+footer {
+  padding: 5px 0 10px 0;
+  background: pink;
+  text-align: center;
+  font-size: 12px;
+  color: Black;
+  clear: both;
+  border-radius: 5px;
+}
+
+.test {
+  width: 300px;
+  height: 40px;
+  background: lightgray;
+  transition: width 2s;
+  border-radius: 5px;
+}
+
+.test:hover {
+  width: 500px;
+  background: pink;
+}
+
+#gallery {
+  border: 0;
+  padding: 18px;
+  width: 150px;
+  float: left;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#gallery:hover {
+  border: 1px solid white;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+}
+
+table {
+  background: white;
+  padding: 2px;
+  width: 760px;
+}
+
+table tr td {
+  padding: 2px;
+  border: 2px;
+}
